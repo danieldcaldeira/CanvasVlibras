@@ -1,3 +1,5 @@
+
+//Insere Script VLibras
 let vlibrasScript = document.createElement('script');
 vlibrasScript.setAttribute("src", "https://vlibras.gov.br/app/vlibras-plugin.js");    
 document.body.appendChild(vlibrasScript);
@@ -6,6 +8,8 @@ vlibrasScript.onload = () => {
     new window.VLibras.Widget('https://vlibras.gov.br/app');
 
 }
+
+//Adiciona DIVs do VLibras ao body
 
 let CreateDOMObjects = () => {
     const DOM = `
